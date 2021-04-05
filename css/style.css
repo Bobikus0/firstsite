@@ -1,0 +1,119 @@
+
+:root{
+    --black-color: #222224;
+    --pink: #F1E4E6;
+
+}
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--black-color);
+}
+.header_navigation{
+    display: none;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    margin: 0 41px 0 0;
+}
+.header_button{
+    background: transparent;
+    border: none;
+    margin: 0 33px 0 0;
+}
+.header_link{
+    margin: 0 33px 0 0;
+}
+.header_title{
+
+}
+.brand{
+    max-width: 1600px;
+    display: flex;
+    margin: 0 0 63px 0;
+}
+.brand_img{
+    background-color: var(--pink);
+}
+.brand_title-container{
+    background-color: var(--pink);
+    flex-grow: 1;
+    padding:  0 0 92px 0;
+    display: flex;
+    align-items: center;
+}
+.brand_title{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    width: 377;
+    text-transform: uppercase;
+}
+.brandsub-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+}
+.brand_title_pink{
+    color: #F16D7F;
+    ;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+  .pomotions_list{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+.promotions_card{
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    
+}
+.promotions_card-women{
+    background-image: url("../img/pr_wo.jpg");
+    background-size: cover;
+}
+.promotions_card-men{
+    background-image: url("../img/pr_me.jpg");
+    background-size: cover;
+}
+.promotions_card-kids{
+    background-image: url("../img/pr_ki.jpg");
+    background-size: cover;
+}
+.promotions_card-acces{
+    background-image: url("../img/pr_acc.jpg");
+    background-size: cover;
+    width: 100%;
+}
