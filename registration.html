@@ -81,14 +81,14 @@
                         <legend>Your name</legend>
                         <div>
                             <label for="name"></label>
-                            <input type="name">
+                            <input class="data_in_form" type="name" placeholder="First Name">
                         </div>
                         <div>
                             <label for="name"></label>
-                            <input type="name">
+                            <input class="data_in_form" type="name" placeholder="Last Name">
                         </div>
                     </fieldset>
-                    <div>
+                    <div class="data_radio">
                         <input type="radio" name="gender" value="male"> male <br>
                         <input type="radio" name="gender" value="female"> female <br>
                     </div>
@@ -96,40 +96,46 @@
                         <legend>Login details</legend>
                         <div>
                             <label for="name"></label>
-                            <input type="name">
+                            <input class="data_in_form" type="name">
                         </div>
 
                         <div>
                             <label for="name"></label>
-                            <input type="name">
+                            <input class="data_in_form" type="name">
                         </div>
                     </fieldset>
 
-                    <button type="submit">Join now</button>
+                    <p class="data_text">Please use 8 or more characters, with at least 1 number and a mixture of
+                        uppercase and lowercase
+                        letters</p>
+
+                    <button class="data_button" type="submit">Join now</button>
                 </form>
 
             </div>
             <div class="data_advantages">
-                <h2>LOYALTY HAS ITS PERKS</h2>
-                <p>Get in on the loyalty program where you can earn points and unlock serious perks.
+                <h2 class="data_advantages_lable dist22">LOYALTY HAS ITS PERKS</h2>
+                <p class="data_advantages_text dist22">Get in on the loyalty program where you can earn points and
+                    unlock
+                    serious perks.
                     Starting with these as soon as you join:</p>
                 <ul class="data_advantages_list">
-                    <li>
+                    <li class="data_advantages_item">
                         <p>15% off welcome offer
                         </p>
                     </li>
-                    <li>
+                    <li class="data_advantages_item">
                         <p>Free shipping, returns and exchanges on all orders
                         </p>
                     </li>
-                    <li>
+                    <li class="data_advantages_item">
                         <p>$10 off a purchase on your birthday
                         </p>
                     </li>
-                    <li>
+                    <li class="data_advantages_item">
                         <p>Early access to products</p>
                     </li>
-                    <li>
+                    <li class="data_advantages_item">
                         <p>Exclusive offers & rewards</p>
                     </li>
                 </ul>
@@ -149,6 +155,14 @@
                 <div class="footer__top_right">
                     <h2 class="footer__top_right_tittle">subscribe</h2>
                     <p class="footer__top_right_text"> for our newletter and promotion</p>
+
+                    <div>
+                        <form class="footer_form" action="#">
+                            <input class="footer_in_form" type="name" placeholder="Enter Your Email">
+                            <button class="footer_button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+
                 </div>
 
             </div>
